@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+  <div class="calculator-wrapper">
+
+    <div class="calculator">
+
+      <div class="calculator-screen">
+        <div class="general-formula">
+          <span class="general-formula__span"></span>
+        </div>
+        <div class="current-result">
+          <span class="current-result__span"></span>
+        </div>
+      </div>
+
+      <ul class="input-list">
+        <li class="input-list__item">
+          <button class="input-list__btn input-list__btn_small input-list__btn_gray" id="clean">AC</button>
+        </li>
+        <li class="input-list__item">
+          <button class="input-list__btn input-list__btn_gray" id="del">&lArr;</button>
+        </li>
+        <li class="input-list__item">
+          <button class="input-list__btn input-list__btn_gray" id="perc">%</button>
+        </li>
+        <li class="input-list__item">
+          <button class="input-list__btn input-list__btn_orange" value="/">&divide;</button>
+        </li>
+        <li class="input-list__item">
+          <button class="input-list__btn input-list__btn_dark" value="7">7</button>
+        </li>
+        <li class="input-list__item">
+          <button class="input-list__btn input-list__btn_dark" value="8">8</button>
+        </li>
+        <li class="input-list__item">
+          <button class="input-list__btn input-list__btn_dark" value="9">9</button>
+        </li>
+        <li class="input-list__item">
+          <button class="input-list__btn input-list__btn_orange" value="*">&times;</button>
+        </li>
+        <li class="input-list__item">
+          <button class="input-list__btn input-list__btn_dark" value="4">4</button>
+        </li>
+        <li class="input-list__item">
+          <button class="input-list__btn input-list__btn_dark" value="5">5</button>
+        </li>
+        <li class="input-list__item">
+          <button class="input-list__btn input-list__btn_dark" value="6">6</button>
+        </li>
+        <li class="input-list__item">
+          <button class="input-list__btn input-list__btn_orange" value="-">-</button>
+        </li>
+        <li class="input-list__item">
+          <button class="input-list__btn input-list__btn_dark" value="1">1</button>
+        </li>
+        <li class="input-list__item">
+          <button class="input-list__btn input-list__btn_dark" value="2">2</button>
+        </li>
+        <li class="input-list__item">
+          <button class="input-list__btn input-list__btn_dark" value="3">3</button>
+        </li>
+        <li class="input-list__item">
+          <button class="input-list__btn input-list__btn_orange" value="+">+</button>
+        </li>
+        <li class="input-list__item">
+          <button class="input-list__btn input-list__btn_big input-list__btn_dark" value="0">0</button>
+        </li>
+        <li class="input-list__item">
+          <button class="input-list__btn input-list__btn_dark" value=".">.</button>
+        </li>
+        <li class="input-list__item">
+          <button class="input-list__btn input-list__btn_orange" id="calc">=</button>
+        </li>
+      </ul>
+
+    </div>
+  </div>
+
+  <script src="./scripts/main.js"></script>
+</body>
+
+</html>

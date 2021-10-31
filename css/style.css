@@ -1,0 +1,94 @@
+* {
+  color: #fff;
+  font-weight: 600;
+}
+
+.calculator-wrapper {
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.input-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  width: 245px;
+}
+
+.input-list__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+}
+
+.input-list__btn {
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.input-list__btn_big {
+  width: 110px;
+  border-radius: 25px;
+}
+
+.input-list__btn_dark {
+  background-color: rgb(26, 26, 26);
+}
+
+.input-list__btn_dark:hover {
+  background-color: rgb(34, 34, 34);
+}
+
+.input-list__btn_gray {
+  background-color: rgb(92, 92, 92);
+  color: rgb(19, 19, 19);
+}
+
+.input-list__btn_gray:hover {
+  background-color: rgb(105, 105, 105);
+}
+
+.input-list__btn_orange {
+  background-color: rgb(240, 103, 12);
+}
+
+.input-list__btn_orange:hover {
+  background-color: rgb(255, 117, 25);
+}
+
+.input-list__btn_small {
+  font-weight: 300;
+}
+
+.calculator-screen {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 10px;
+  overflow: hidden;
+  max-width: 245px;
+}
+
+.general-formula {
+  margin-bottom: 10px;
+  font-size: 22px;
+  line-height: 100%;
+  height: 22px;
+}
+
+.general-formula__span {
+  color: rgb(172, 172, 172);
+}
+
+.current-result {
+  font-size: 38px;
+}
